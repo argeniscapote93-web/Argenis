@@ -13,6 +13,7 @@
     background-attachment: fixed;
     z-index: -1;
 }
+
 .bg-overlay::after {
     content: '';
     position: absolute;
@@ -27,11 +28,12 @@
 .service-card {
     transition: all 0.3s ease;
 }
+
 .service-card:hover {
     transform: translateY(-8px);
 }
 
-/* ===== BOTONES DE REDES SOCIALES (conservados) ===== */
+/* ===== BOTONES DE REDES SOCIALES ===== */
 .btn-social {
     display: inline-flex;
     align-items: center;
@@ -45,32 +47,38 @@
     border: 2px solid transparent;
     min-width: 160px;
 }
+
 .btn-instagram {
     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     color: white;
     box-shadow: 0 10px 15px -3px rgba(220, 38, 38, 0.2);
 }
+
 .btn-instagram:hover {
     transform: scale(1.05);
     box-shadow: 0 20px 25px -5px rgba(220, 38, 38, 0.3);
     border-color: white;
 }
+
 .btn-tiktok {
     background: #000000;
     color: white;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
 }
+
 .btn-tiktok:hover {
     transform: scale(1.05);
     background: #1a1a1a;
     border-color: #69c9d0;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
 }
+
 .btn-facebook {
     background: #1877f2;
     color: white;
     box-shadow: 0 10px 15px -3px rgba(24, 119, 242, 0.2);
 }
+
 .btn-facebook:hover {
     transform: scale(1.05);
     background: #0d5ab9;
